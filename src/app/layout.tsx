@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Sarfaraz ul Haq",
   description:
-    "Learning Cloud Applied Generative AI Engineering (GenEng) at Panaverse DAO",
+    "Enrolled in Cloud Applied Generative AI Engineer (GenEng) Program at Panaverse DAO",
 };
 
 export default function RootLayout({
