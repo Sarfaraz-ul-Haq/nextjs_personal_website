@@ -5,10 +5,10 @@ export const personalData = {
     "Panaversity Certified Cloud Applied Generative AI Engineering (GenEng)",
   ],
   contactLinks: [
-    "https://linkedin.com/aliciarodriguezLi",
+    "https://www.linkedin.com/in/sarfaraz-ul-haq/",
     "https://github.com/Sarfaraz-ul-Haq",
     "mailto:emailto:isarfaraz80@gmail.com",
-    "https://medium.com/@time2code.ali",
+    "https://medium.com/@isarfaraz80",
   ],
 };
 
