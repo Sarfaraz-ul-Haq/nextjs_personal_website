@@ -1,3 +1,6 @@
+import Sidebar from "@/components/sidebar";
+import { personalData } from "@/data/page";
+import Head from "next/head";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -12,12 +15,16 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
+  console.log(personalData);
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <Sidebar data={personalData} />
+        {children}
+      </body>
     </html>
   );
 }
