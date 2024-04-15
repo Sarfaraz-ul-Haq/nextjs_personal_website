@@ -1,6 +1,11 @@
+import linkedinIcon from "@/assets/icons/linkedin.svg";
+import githubIcon from "@/assets/icons/github.svg";
+import emailIcon from "@/assets/icons/email.svg";
+import mediumIcon from "@/assets/icons/medium.svg";
+
 import Image from "next/image";
 import pic from "@/assets/images/pic.jpg";
-import { LinkedIn, GitHub, Email, Medium } from "@/assets/icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Sidebar({ data }: { data: any }) {
   const { name, role, education, contactLinks } = data;
@@ -16,43 +21,59 @@ export default function Sidebar({ data }: { data: any }) {
           alt="1"
           aria-label="spaceship"
         />
-        <h1 className="mb-3">{name}</h1>
-        <h2 className="mb-8 text-gray-500">{role}</h2>
-        <p className="text-gray-500">{education} </p>
+        <h1 className="mb-3 text-yellow-600">{name}</h1>
+        <h2 className="mb-8 text-gray-400">{role}</h2>
+        <p className="text-gray-400">{education} </p>
         <div className="text-center mb-4 mt-4 sm:mt-8">
-          <h2 className="mb-2 text-gray-500">Contact Me</h2>
+          <h2 className="mb-2 text-gray-400">Contact Me</h2>
           <div className="flex flex-row justify-center gap-2">
             <a
-              className="icons-contactme text-blue-500"
-              target="_blank"
+              className="icons-contactme"
               href={contactLinks?.[0]}
               aria-label="LinkedIn Link"
-            >
-              <LinkedIn />
-            </a>
-            <a
-              className="icons-contactme text-white"
               target="_blank"
+            >
+              <Image
+                src={linkedinIcon}
+                alt="LinkedIn Icon"
+                width={24}
+                height={24}
+              />
+            </a>
+
+            <a
+              className="icons-contactme"
               href={contactLinks?.[1]}
               aria-label="GitHub Link"
+              target="_blank"
             >
-              <GitHub />
+              <Image
+                src={githubIcon}
+                alt="GitHub Icon"
+                width={24}
+                height={24}
+              />
             </a>
             <a
-              className="icons-contactme text-red-800"
-              target="_blank"
+              className="icons-contactme"
               href={contactLinks?.[2]}
+              target="_blank"
               aria-label="Email Link"
             >
-              <Email />
+              <Image src={emailIcon} alt="Email Icon" width={24} height={24} />
             </a>
             <a
-              className="icons-contactme text-white"
-              target="_blank"
+              className="icons-contactme"
               href={contactLinks?.[3]}
+              target="_blank"
               aria-label="Medium Link"
             >
-              <Medium />
+              <Image
+                src={mediumIcon}
+                alt="Medium Icon"
+                width={24}
+                height={24}
+              />
             </a>
           </div>
         </div>
