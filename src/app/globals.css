@@ -28,7 +28,7 @@ body {
 
 @layer base {
   h1 {
-    @apply text-yellow-600 text-4xl sm:text-6xl;
+    @apply text-4xl sm:text-6xl;
   }
 
   h2 {
