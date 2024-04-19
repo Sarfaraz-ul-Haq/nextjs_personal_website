@@ -57,4 +57,20 @@ body {
   .icons-contactme {
     @apply text-2xl m-2;
   }
+
+  section {
+    @apply mb-10;
+  }
+
+  main h2 {
+    @apply uppercase text-black;
+  }
+
+  .btn {
+    @apply w-1/2 h-12 bg-gray-200 text-black uppercase text-xl;
+  }
+
+  .skill {
+    @apply bg-green- text-lg py-2 px-4 w-fit rounded-md;
+  }
 }
