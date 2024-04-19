@@ -39,24 +39,43 @@ export const skills = {
   ],
 };
 
-export const professionalExperience = {
-  title: "Professional Experience",
+export const professionalData = {
+  title: "Projects",
 
-  experiences: [
+  projects: [
     {
-      role: "Student at Panaversity Certified Cloud Applied Generative AI Engineer (GenEng)",
-      description:
-        "Learning Cloud Applied Generative AI Engineering (GenEng) at Panaverse DAO",
+      name: "CLI Todo App",
+      description: "in progess",
       current: true,
     },
     {
-      role: "Student",
-      description: "Online",
+      name: "CLI Quiz App",
+      description: "in progress",
+      current: true,
+    },
+    {
+      name: "CLI Word Counter",
+      description: "description",
       current: false,
     },
     {
-      role: "Student",
-      description: "Online",
+      name: "CLI Currency Convertor",
+      description: "description",
+      current: false,
+    },
+    {
+      name: "CLI ATM",
+      description: "description",
+      current: false,
+    },
+    {
+      name: "CLI Number Guessing Game",
+      description: "description",
+      current: false,
+    },
+    {
+      name: "CLI Calculator",
+      description: "description",
       current: false,
     },
   ],
