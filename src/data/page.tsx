@@ -77,7 +77,7 @@ export const professionalData = {
     {
       name: "CLI Calculator",
       description:
-        "Simple Command Line Calculator using TypeScript, Node.js and Inquirer https://www.npmjs.com/package/sarfaraz-calculator",
+        "Simple Command Line Calculator using TypeScript, Node.js and Inquirer",
       current: false,
     },
   ],
