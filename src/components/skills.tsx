@@ -11,11 +11,11 @@ function Skills({ data }: any) {
 
   const tabs = (
     <div className="flex">
-      {["currentSkills", "learningSkills"].map((el) => (
+      {["currentSkills", "learning"].map((el) => (
         <button
           key={el}
           type="button"
-          className={`btn ${setBg(el)} ${setTabsAlignment(el)}`}
+          className={`btn ${setBg(el)} ${setTabsAlignment(el)} px-5`}
           onClick={() => setActiveTab(el)}
         >
           {el}
@@ -30,8 +30,8 @@ function Skills({ data }: any) {
       }`}
     >
       {data[activeTab].map(({ icon, text }: any) => (
-        <li key={text}>
-          <span> {icon}</span> {text}
+        <li key={text} className="skill">
+          {text}
         </li>
       ))}
     </ul>
