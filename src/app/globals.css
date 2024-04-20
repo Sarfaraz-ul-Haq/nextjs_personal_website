@@ -67,10 +67,10 @@ body {
   }
 
   .btn {
-    @apply w-1/2 h-12 bg-gray-200 text-black uppercase text-xl;
+    @apply w-1/2 h-12 text-black uppercase text-xl px-4 transition ease-in-out;
   }
 
   .skill {
-    @apply bg-green- text-lg py-2 px-4 w-fit rounded-md;
+    @apply bg-gray-200 text-lg py-2 px-4 w-fit rounded-md;
   }
 }
