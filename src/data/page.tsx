@@ -53,27 +53,31 @@ export const professionalData = {
     },
     {
       name: "CLI Word Counter",
-      description: "description",
+      description:
+        "The Word Counter is a TypeScript / Node.js project designed to count the number of characters and words (excluding whitespaces) in an English paragraph.",
       current: false,
     },
     {
       name: "CLI Currency Convertor",
-      description: "description",
+      description:
+        "This console-based TypeScript app is used to convert currencies: the users enter a certain amount of money in one currency and set the currency they want to check the monetary value of.",
       current: false,
     },
     {
       name: "CLI ATM",
-      description: "description",
+      description:
+        "This TypeScript/Node.js project is a console-based application. When the system starts the user is prompted with a user id and user pin. After entering the details successfully, the ATM functionalities are unlocked. All the user data is generated randomly.",
       current: false,
     },
     {
       name: "CLI Number Guessing Game",
-      description: "description",
+      description: "Simple Console-based Number Guessing Game",
       current: false,
     },
     {
       name: "CLI Calculator",
-      description: "description",
+      description:
+        "Simple Command Line Calculator using TypeScript, Node.js and Inquirer https://www.npmjs.com/package/sarfaraz-calculator",
       current: false,
     },
   ],
