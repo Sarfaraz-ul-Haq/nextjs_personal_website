@@ -10,7 +10,7 @@ function ProfessionalExperience({ data }: any) {
               className={`h-2 ${current ? "bg-green-500" : "bg-gray-200"}`}
             />
             <div className="bg-gray-100 p-6 drop-shadow-md">
-              <h3>{name}</h3>
+              <h3 className="font-bold">{name}</h3>
               <p className="mt-2">{description}</p>
             </div>
           </div>
