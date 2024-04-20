@@ -2,7 +2,7 @@ export const personalData = {
   name: "Sarfaraz ul Haq",
   role: "Cloud Applied Generative AI Engineer",
   education: [
-    "Panaversity Certified Cloud Applied Generative AI Engineer (2023 - continue)",
+    "Panaverse Certified Cloud Applied Generative AI Engineer (2023 - continue)",
   ],
   contactLinks: [
     "https://www.linkedin.com/in/sarfaraz-ul-haq/",
