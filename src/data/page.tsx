@@ -27,14 +27,12 @@ export const skills = {
     { icon: "", text: "JavaScript" },
     { icon: "", text: "TypeScript" },
     { icon: "", text: "Node.js" },
-    { icon: "", text: "ChatGPT" },
   ],
 
-  learningSkills: [
+  learning: [
     { icon: "", text: "React.js" },
     { icon: "", text: "Next.js" },
     { icon: "", text: "Tailwind CSS" },
-    { icon: "", text: "Python" },
     { icon: "", text: "Problem-Solving" },
   ],
 };
