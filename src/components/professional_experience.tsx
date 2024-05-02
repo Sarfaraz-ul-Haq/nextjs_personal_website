@@ -1,4 +1,17 @@
-function ProfessionalExperience({ data }: any) {
+interface ProfessionalExperienceProps {
+  title: string;
+  projects: {
+    name: string;
+    description: string;
+    current: boolean;
+  }[];
+}
+
+function ProfessionalExperience({
+  data,
+}: {
+  data: ProfessionalExperienceProps;
+}) {
   const { title, projects } = data;
   return (
     <section>
