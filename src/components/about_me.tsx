@@ -1,8 +1,17 @@
 import { useId } from "react";
 import Skills from "./skills";
 
-function AboutMe({ data, skills }: any) {
-  const { title, body }: any = data;
+interface AboutMe {
+  title: string;
+  body: string[];
+}
+interface SkillsType {
+  currentSkills: { icon: string; text: string }[];
+  learning: { icon: string; text: string }[];
+}
+
+function AboutMe({ data, skills }: { data: AboutMe; skills: SkillsType }) {
+  const { title, body } = data;
   const id = useId;
 
   return (
