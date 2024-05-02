@@ -7,6 +7,12 @@ interface ProfessionalExperienceProps {
   }[];
 }
 
+interface Projects {
+  name: string;
+  description: string;
+  current: boolean;
+}
+
 function ProfessionalExperience({
   data,
 }: {
@@ -17,7 +23,7 @@ function ProfessionalExperience({
     <section>
       <h2 className="mb-6"> {title}</h2>
       <div className="flex flex-col gap-6">
-        {projects.map(({ name, description, current }: any) => (
+        {projects.map(({ name, description, current }: Projects) => (
           <div key={name} className="flex flex-col rounded-lg">
             <span
               className={`h-2 ${current ? "bg-green-500" : "bg-gray-200"}`}
