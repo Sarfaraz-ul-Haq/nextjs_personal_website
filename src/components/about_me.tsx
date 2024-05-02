@@ -17,7 +17,7 @@ function AboutMe({ data, skills }: { data: AboutMe; skills: SkillsType }) {
   return (
     <section>
       <h2 className="mb-6">{title}</h2>
-      {body?.map((el: any, i: any) => (
+      {body?.map((el: string, i: number) => (
         <p key={`${id}_${i}`} className="mb-6">
           {el}
         </p>
