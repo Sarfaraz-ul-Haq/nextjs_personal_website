@@ -5,9 +5,15 @@ import mediumIcon from "@/assets/icons/medium.svg";
 
 import Image from "next/image";
 import pic from "@/assets/images/pic.jpg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-export default function Sidebar({ data }: { data: any }) {
+interface PersonalData {
+  name: string;
+  role: string;
+  education: string[];
+  contactLinks: string[];
+}
+
+export default function Sidebar({ data }: { data: PersonalData }) {
   const { name, role, education, contactLinks } = data;
   return (
     <div className="bg-black flex flex-col content-between w-full h-auto sm:h-screen sm:justify-around sm:w-1/3 sm:fixed">
