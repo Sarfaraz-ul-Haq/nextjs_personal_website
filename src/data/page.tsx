@@ -42,40 +42,50 @@ export const professionalData = {
 
   projects: [
     {
-      name: "CLI Todo App",
-      description: "in progess",
-      current: true,
-    },
-    {
-      name: "CLI Quiz App",
+      name: "React Tic-Tac-Toe Game",
       description: "in progress",
       current: true,
     },
     {
-      name: "CLI Word Counter",
+      name: "Node.js Todo App",
+      description: "in progess",
+      current: true,
+    },
+    {
+      name: "Node.js Quiz App",
+      description: "in progress",
+      current: true,
+    },
+    {
+      name: "React Counter",
+      description: "description",
+      current: false,
+    },
+    {
+      name: "Node.js Word Counter",
       description:
         "The Word Counter is a TypeScript / Node.js project designed to count the number of characters and words (excluding whitespaces) in an English paragraph.",
       current: false,
     },
     {
-      name: "CLI Currency Convertor",
+      name: "Node.js Currency Convertor",
       description:
         "This console-based TypeScript app is used to convert currencies: the users enter a certain amount of money in one currency and set the currency they want to check the monetary value of.",
       current: false,
     },
     {
-      name: "CLI ATM",
+      name: "Node.js ATM",
       description:
         "This TypeScript/Node.js project is a console-based application. When the system starts the user is prompted with a user id and user pin. After entering the details successfully, the ATM functionalities are unlocked. All the user data is generated randomly.",
       current: false,
     },
     {
-      name: "CLI Number Guessing Game",
+      name: "Node.js Number Guessing Game",
       description: "Simple Console-based Number Guessing Game",
       current: false,
     },
     {
-      name: "CLI Calculator",
+      name: "Node.js Calculator",
       description:
         "Simple Command Line Calculator using TypeScript, Node.js and Inquirer",
       current: false,
